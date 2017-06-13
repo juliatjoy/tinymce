@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tiny_mce
+  pool: 5
+  username: pgadmin
+  password: pgadmin
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database:
+  pool: 5
+  username: pgadmin
+  password: pgadmin
+  host: localhost
